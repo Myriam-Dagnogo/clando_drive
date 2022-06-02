@@ -1,0 +1,87 @@
+.navig{
+    background-color: black;
+    height: 100px;
+}
+.nav li a{
+    color:#fff;
+   
+}
+.nav li a:hover{
+    color:yellow;
+}
+
+.home{
+    background-image: url("/img/clandologo.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.autre{
+    background-image: url('/img/img1.jpg');
+}
+
+#reservation{
+    background-color: rgba(255, 217, 0, 0.993);
+}
+
+.formulaire{
+    width: 50%;
+}
+#about{
+    margin-top: 40px;
+    background-color: black;
+}
+.apropos{
+    font-size: 20px;
+}
+#contacts{
+    margin-top: 50px;
+
+}
+footer a{
+    text-decoration: none;
+}
+
+
+
+
+#arriere {
+	position: absolute;
+	left: 2em;
+	top: 5em;
+	height : 80px;
+	width : 1280px;
+    margin-top: 10px;
+    background-attachment: fixed;
+  
+}
+/* l'image occupe toute la place de son bloc conteneur */
+
+ #arriere img {
+	width : 100%;
+	height: 100%;
+    background-attachment: fixed;
+}
+.cdf{
+	position: absolute;	/* placement du texte par-dessus l'image*/ 
+	top: 8em;
+	left: 18em;
+	font-size: 4em;
+	color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.commander{
+    position: absolute;	/* placement du texte par-dessus l'image */
+	top: 10em;
+	left: 13em;
+	font-size: 1.5em;
+	color: gold;
+    font-style:italic;
+    font-size: 30px;
+} 
+
+.link{
+    color: red;
+}
